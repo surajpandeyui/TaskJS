@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+<!-- Given a string, reverse each word in the sentence. -->
+
+<button onclick="wordsReverser()">CLick Here</button>
+
+<p id="wordsReverser">This is java script programming</p>
+
+<script>
+
+	var SomeArray = ["I", "am", "a", "college", "Pass", "Employee"];
+document.getElementById("wordsReverser").innerHTML = SomeArray;
+
+function wordsReverser() {
+  SomeArray.reverse();
+  document.getElementById("wordsReverser").innerHTML = SomeArray;
+}
+
+/*Write a JavaScript conditional statement to find the largest of five numbers. Display an alert box to show the result.*/
+
+a=0;
+b=1;
+c=2;
+d=3;
+f=4;
+if (a>b && a>c && a>d && a>f)
+{
+    alert(a);
+}
+else if (b>a && b>c && b>d && b>f)
+{
+    alert(b);
+}
+else if (c>a && c>b && c>d && c>f)
+{
+    alert(c);
+}
+else if (d>a && d>c && d>b && d>f)
+{
+    alert(d);
+}
+else
+{
+    alert(f);
+}
+
+</script>
+
+</body>
+</html>

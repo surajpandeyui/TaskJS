@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- How to check if an object is an array or not? -->
+
+
+<button onclick="myFunction()">Check Array</button>
+
+<p id="testarray"></p>
+
+<script>
+function myFunction() {
+  var testing = [1,2,3];
+  var x = document.getElementById("testarray");
+  x.innerHTML = Array.isArray(testing);
+}
+</script>
+
+</body>
+</html>
